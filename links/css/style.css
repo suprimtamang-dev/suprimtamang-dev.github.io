@@ -5,7 +5,7 @@
 
 * ,*:before, *:after{
     padding: 0;
-   
+   margin: 0;
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
        
@@ -67,12 +67,12 @@ body{
 .container{
     margin-top: 20px;
 }
-.profilePic{
+/* .profilePic{
     margin: 10px 50px;
 }
 .profilePic img{
      transition: 1s ;
-}
+} */
 #sup-img{
     width:90px ;
     height:90px;
