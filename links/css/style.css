@@ -1,0 +1,130 @@
+:root{
+    --primary: rgba(237, 145, 145, 0.733);
+    --secondary: hsla(202, 100%, 50%, 0.692);
+}
+
+* ,*:before, *:after{
+    padding: 0;
+   
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+       
+}
+
+@keyframes load {
+    0%{
+        opacity: 0.08;
+/*         font-size: 10px; */
+/* 				font-weight: 400; */
+				filter: blur(5px);
+				letter-spacing: 3px;
+        }
+    100%{
+/*         opacity: 1; */
+/*         font-size: 12px; */
+/* 				font-weight:600; */
+/* 				filter: blur(0); */
+        }
+}
+
+.animate {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;
+	margin: auto;
+	width: 350px; 
+ 	font-size:26px; 
+   /* /* font-family: 'Azonix',sans-serif; */
+	animation: load 1.2s infinite 0s ease-in-out;
+	animation-direction: alternate;
+	text-shadow: 0 0 1px white;
+}
+#PreLoader{
+    background: #000 ;
+    z-index:100;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    margin-top: -20px;
+
+}
+
+
+
+body{
+    background:  linear-gradient(to right top,var(--primary),var(--secondary) ),url("/pexels-douglas-kugler-4017228.jpg") ;
+                   
+
+    color: #ffffff;
+    background-size:cover;
+    height: 100vh;
+    font-family: 'rubik', sans-serif;
+    text-align: center;
+       letter-spacing: 1px;
+    /* font-family: 'IM Fell English SC', serif; */
+}
+.container{
+    margin-top: 20px;
+}
+.profilePic{
+    margin: 10px 50px;
+}
+.profilePic img{
+     transition: 1s ;
+}
+#sup-img{
+    width:90px ;
+    height:90px;
+   
+}
+#sup-txt{
+    cursor:default;
+    font-size:3vh;
+    font-family: 'azonix', sans-serif;
+}
+#follow{ 
+  cursor:default;
+    font-size:3vh;
+}
+.Smedia{
+    text-decoration:none;
+    margin-right: 10px;
+    
+}
+.icons{
+    margin: 10px 10px 0 0 ;
+}
+
+.socialMedia{
+    margin-top: 20px;
+}
+
+.verified{
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+
+#creator{ 
+    font-size: 1rem;
+}
+footer{
+    clear: both;
+   bottom:10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    /* margin: 10px 0 10px; */
+    padding: 3px;
+    width: 100%;
+    cursor: default;
+    font-size: 1rem;
+    color: black;
+
+    background:linear-gradient(to right top,rgb(255, 214, 214),hsl(0, 25%, 62%));
+}
+
+
+
+
+
