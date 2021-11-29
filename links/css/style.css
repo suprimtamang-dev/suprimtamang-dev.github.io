@@ -56,7 +56,7 @@ body{
    
     background-image: linear-gradient(to right top,var(--primary),var(--secondary)),url("bg-sky.jpg");             
     background-repeat: no-repeat;
-    color: #000000;
+    color: #ffffff;
     background-size:cover;
     height: 100vh;
     font-family: 'rubik', sans-serif;
