@@ -112,15 +112,18 @@ background-repeat: no-repeat;
 #creator{ 
     font-size: 1rem;
 }
+
+
+
+
 footer{
-   
-    clear: both;
-   bottom:10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    /* margin: 10px 0 10px; */
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    bottom:10px;
     padding: 3px;
-    width: 90%;
     cursor: default;
     font-size: 1rem;
     color: black;
