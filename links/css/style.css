@@ -114,7 +114,7 @@ background-repeat: no-repeat;
 }
 
 
-#footer{
+#footer{   margin-top: auto;
     color: #000;
     position: absolute;
     bottom: 0;
