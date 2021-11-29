@@ -73,6 +73,9 @@ background-repeat: no-repeat;
 .profilePic img{
      transition: 1s ;
 } */
+#PP{
+    margin-top: 20px;
+}
 #sup-img{
     width:90px ;
     height:90px;
@@ -110,13 +113,14 @@ background-repeat: no-repeat;
     font-size: 1rem;
 }
 footer{
+   
     clear: both;
    bottom:10px;
     margin-top: 10px;
     margin-bottom: 5px;
     /* margin: 10px 0 10px; */
     padding: 3px;
-    width: 100%;
+    width: 90%;
     cursor: default;
     font-size: 1rem;
     color: black;
