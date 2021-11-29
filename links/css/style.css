@@ -114,9 +114,16 @@ background-repeat: no-repeat;
 }
 
 
-
-
-footer{
+#footer{
+    color: #000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:linear-gradient(to right top,rgb(255, 214, 214),hsl(0, 25%, 62%));
+    height: 2.5rem; 
+}
+/* 
+#footer{
     position:fixed;
     left: 0;
     bottom: 0;
@@ -128,8 +135,8 @@ footer{
     font-size: 1rem;
     color: black;
 
-    background:linear-gradient(to right top,rgb(255, 214, 214),hsl(0, 25%, 62%));
-}
+    
+} */
 
 
 
