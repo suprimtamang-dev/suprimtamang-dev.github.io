@@ -53,7 +53,8 @@
 
 
 body{
-   
+    
+    background-attachment: fixed;
     background-image: linear-gradient(to right top,rgba(237, 145, 145, 0.733), hsla(202, 100%, 50%, 0.692)), url("/bg-sky.jpg");             
     background-repeat: no-repeat;
     color: #ffffff;
