@@ -54,7 +54,8 @@
 
 body{
    
-    background-image: linear-gradient(to right top,var(--primary),var(--secondary)),url("bg-sky.jpg");             
+    background-image: linear-gradient(to right top,var(--primary),var(--secondary)),
+    url("/bg-sky.jpg");             
     background-repeat: no-repeat;
     color: #ffffff;
     background-size:cover;
@@ -75,10 +76,13 @@ body{
 } */
 #PP{
     margin-top: 20px;
+     
 }
 #sup-img{
-    width:90px ;
-    height:90px;
+    width:90px ; 
+    /* border: 0.7vh solid rgb(0,166,126);
+    border-radius: 50%;
+    padding:3px; */
    
 }
 #sup-txt{
