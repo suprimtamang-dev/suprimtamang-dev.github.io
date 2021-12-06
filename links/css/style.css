@@ -1,7 +1,4 @@
-:root{
-    --primary: ;
-    --secondary:;
-}
+
 
 * ,*:before, *:after{
     padding: 0;
@@ -55,7 +52,7 @@
 body{
     
     background-attachment: fixed;
-    background-image: linear-gradient(to right top,rgba(237, 145, 145, 0.733), hsla(202, 100%, 50%, 0.692)), url("/bg-sky.jpg");             
+    background-image: linear-gradient(to right top,rgba(237, 145, 145, 0.733), hsla(202, 100%, 50%, 0.692)), url("/bg-sky1.png");             
     background-repeat: no-repeat;
     color: #ffffff;
     background-size:cover;
